@@ -6,6 +6,23 @@
 - Tailwind CSS 3
 - PostCSS + Autoprefixer
 
+## Dependencies
+All versions reflect the semver ranges in `package.json` (see `package-lock.json` for exact resolved versions).
+
+### Runtime dependencies
+- `react` `^19.2.7` — UI library
+- `react-dom` `^19.2.7` — React DOM renderer
+
+### Dev dependencies
+- `vite` `^8.1.1` — dev server and build tool
+- `@vitejs/plugin-react` `^6.0.3` — React support (Fast Refresh, JSX) for Vite
+- `tailwindcss` `^3.4.19` — utility-first CSS framework
+- `postcss` `^8.5.22` — CSS transformation pipeline (used by Tailwind)
+- `autoprefixer` `^10.5.4` — PostCSS plugin that adds vendor prefixes
+- `oxlint` `^1.71.0` — linter (run via `npm run lint`)
+- `@types/react` `^19.2.17` — React type definitions
+- `@types/react-dom` `^19.2.3` — React DOM type definitions
+
 ## Commands
 - `npm run dev` — start the Vite dev server at `http://localhost:5173`
 - `npm run build` — production build to `dist/`
